@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651D16B4289B0A47003BBC13 /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = 651D16B3289B0A47003BBC13 /* AppIcons */; };
+		651D16B6289B0AE9003BBC13 /* Assets2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651D16B5289B0A53003BBC13 /* Assets2.xcassets */; };
 		68B72C1E288B1895007293AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B72C1D288B1895007293AA /* AppDelegate.swift */; };
 		68B72C20288B1895007293AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B72C1F288B1895007293AA /* SceneDelegate.swift */; };
 		68B72C22288B1895007293AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B72C21288B1895007293AA /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		651D16B3289B0A47003BBC13 /* AppIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcons; sourceTree = "<group>"; };
+		651D16B5289B0A53003BBC13 /* Assets2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets2.xcassets; path = AppIcons/Assets2.xcassets; sourceTree = "<group>"; };
 		68B72C1A288B1895007293AA /* gestureTrasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestureTrasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B72C1D288B1895007293AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68B72C1F288B1895007293AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				68B72C37288B42F0007293AA /* AppTimer.swift */,
 				68B72C23288B1895007293AA /* Main.storyboard */,
 				68B72C26288B1897007293AA /* Assets.xcassets */,
+				651D16B5289B0A53003BBC13 /* Assets2.xcassets */,
+				651D16B3289B0A47003BBC13 /* AppIcons */,
 				68B72C33288B2541007293AA /* windows.png */,
 				68B72C39288B538F007293AA /* pan.jpg */,
 				68B72C31288B24C7007293AA /* trash-can-icon-vector-13490171.jpeg */,
@@ -144,9 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				68B72C2A288B1897007293AA /* LaunchScreen.storyboard in Resources */,
+				651D16B6289B0AE9003BBC13 /* Assets2.xcassets in Resources */,
 				68B72C34288B2541007293AA /* windows.png in Resources */,
 				68B72C32288B24C7007293AA /* trash-can-icon-vector-13490171.jpeg in Resources */,
 				68B72C3A288B538F007293AA /* pan.jpg in Resources */,
+				651D16B4289B0A47003BBC13 /* AppIcons in Resources */,
 				68B72C27288B1897007293AA /* Assets.xcassets in Resources */,
 				68B72C25288B1895007293AA /* Main.storyboard in Resources */,
 			);
