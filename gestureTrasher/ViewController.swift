@@ -80,8 +80,11 @@ class ViewController: ViewControllerLogger {
 		
 		addPanGesture(view: object2move)
 		addPanGesture(view: trashCan)
+        addPanGesture(view: panImg)
+        
 		addPinchGesture(view: object2move)
 		addPinchGesture(view: trashCan)
+        addPinchGesture(view: panImg)
 		
 		panImg.startAnimating()
 		objectOriginPoint = object2move.frame.origin // set the origin point for frame
